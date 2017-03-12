@@ -10,6 +10,10 @@ int main()
     string file1, file2, s1, s2;
     ifstream fin1, fin2;
     ofstream fout1, fout2;
+    cout << "Enter the name of the first file" << endl;
+	cin >> file1;
+	cout << "Enter the name of the second file" << endl;
+	cin >> file2;
     fin1.open (file1);
     fin2.open (file2);
 
